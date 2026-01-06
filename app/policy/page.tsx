@@ -1,9 +1,10 @@
 "use client";
 
+import { Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { policyContent, Language } from "./content";
 
-export default function PolicyPage() {
+function PolicyContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const lang = (searchParams.get("lang") as Language) || "en";
@@ -357,5 +358,22 @@ export default function PolicyPage() {
         </footer>
       </div>
     </div>
+  );
+}
+
+export default function PolicyPage() {
+  return (
+    <Suspense
+      fallback={
+        <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+          <div className="text-center">
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#FFAD9F] mx-auto mb-4"></div>
+            <p className="text-slate-600">Loading...</p>
+          </div>
+        </div>
+      }
+    >
+      <PolicyContent />
+    </Suspense>
   );
 }
