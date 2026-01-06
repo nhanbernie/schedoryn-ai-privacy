@@ -205,9 +205,10 @@ export const policyContent = {
     childrenPrivacy: {
       title: "Children's Privacy",
       content: [
-        "Schedoryn is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13.",
-        "If you are a parent or guardian and believe your child has provided us with personal information, please contact us at",
-        ", and we will promptly delete such information from our servers.",
+        "Schedoryn is intended for general audiences and may be used by users aged 13 and older.",
+        "We do not knowingly collect personal information from children under the age of 13. If we become aware that such information has been collected, we will promptly delete it.",
+        "If you are a parent or guardian and believe that your child has provided personal information, please contact us at",
+        ".",
       ],
       email: "schedoryn@gmail.com",
     },
@@ -458,9 +459,10 @@ export const policyContent = {
     childrenPrivacy: {
       title: "Quyền Riêng Tư Của Trẻ Em",
       content: [
-        "Schedoryn không dành cho trẻ em dưới 13 tuổi. Chúng tôi không cố ý thu thập thông tin cá nhân từ trẻ em dưới 13 tuổi.",
-        "Nếu bạn là cha mẹ hoặc người giám hộ và tin rằng con bạn đã cung cấp thông tin cá nhân cho chúng tôi, vui lòng liên hệ với chúng tôi tại",
-        ", và chúng tôi sẽ nhanh chóng xóa thông tin đó khỏi máy chủ của chúng tôi.",
+        "Schedoryn dành cho đối tượng đại chúng và có thể được sử dụng bởi người dùng từ 13 tuổi trở lên.",
+        "Chúng tôi không cố ý thu thập thông tin cá nhân từ trẻ em dưới 13 tuổi. Nếu chúng tôi phát hiện rằng thông tin như vậy đã được thu thập, chúng tôi sẽ nhanh chóng xóa nó.",
+        "Nếu bạn là cha mẹ hoặc người giám hộ và tin rằng con bạn đã cung cấp thông tin cá nhân, vui lòng liên hệ với chúng tôi tại",
+        ".",
       ],
       email: "schedoryn@gmail.com",
     },
